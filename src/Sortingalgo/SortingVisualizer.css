@@ -1,0 +1,54 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    min-height: 100vh;
+    padding-top: 56px;
+    padding-bottom: 20px;
+}
+
+.control-panel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.control-panel label {
+    margin-right: 10px;
+}
+
+.control-panel select,
+.control-panel button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.generate-button{
+    background-color: #34a0a4;
+    color:white;
+}
+
+.sort-button{
+    background-color: #76c893;
+    color:white;
+}
+
+.array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.array-bar {
+    background-color: blue;
+    width: 10px;
+    margin: 0 2px;
+}
